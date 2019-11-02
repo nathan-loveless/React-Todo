@@ -17,10 +17,7 @@ class TodoForm extends React.Component {
 
     this.setState({
       todoName: e.target.value
-    });
-
-    e.target.value = '';
-        
+    });        
   };
 
   handleSubmit = e => {
